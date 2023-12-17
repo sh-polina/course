@@ -9,10 +9,9 @@
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
-    font-family: Raleway;
+    margin: 0 auto 55px;
+    font-family: Raleway, serif;
     padding: 0 15px;
-    margin-bottom: 55px;
 }
 
 .section-top {
@@ -31,7 +30,7 @@
     font-size: 36px;
     font-weight: 400;
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: Raleway, serif;
 }
 
 .title:after {
@@ -74,7 +73,7 @@
 
 .item-title {
     color: #000;
-    font-family: Open Sans;
+    font-family: Open Sans, serif;
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
@@ -83,12 +82,12 @@
 
 .item-text {
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 18px;
     font-weight: 400;
 }
 
-.tabs{
+.tabs {
     padding-top: 120px;
 }
 
@@ -104,7 +103,7 @@
     width: 200px;
     padding: 10px;
     color: #333;
-    font-family: Open Sans;
+    font-family: Open Sans, serif;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -127,7 +126,7 @@
 
 .tabs-content--title {
     color: #000;
-    font-family: Open Sans;
+    font-family: Open Sans, serif;
     font-size: 30px;
     font-weight: 700;
     padding: 0 0 50px 0;
@@ -135,7 +134,7 @@
 
 .tabs-content--description {
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -150,7 +149,7 @@
     color: #FFF;
     background: #EC7979;
     text-align: center;
-    font-family: Open Sans;
+    font-family: Open Sans, serif;
     font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;

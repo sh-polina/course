@@ -7,11 +7,11 @@
     text-decoration: none;
 }
 
-.social-media{
+.social-media {
     background-color: #F8EFEF;
 }
 
-.social-media-container{
+.social-media-container {
     max-width: 1200px;
     padding: 15px 15px;
     margin: 0 auto;
@@ -19,27 +19,27 @@
     gap: 30px;
 }
 
-.social-media-text{
+.social-media-text {
     max-width: 470px;
 }
 
-.social-media-title{
+.social-media-title {
     color: #333;
-    font-family: Open Sans;
+    font-family: Open Sans, serif;
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
     padding-bottom: 30px;
 }
 
-.social-media-description{
+.social-media-description {
     color: #86878B;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 18px;
     font-weight: 400;
 }
 
-.social-media-list{
+.social-media-list {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -47,27 +47,27 @@
     padding: 35px 0;
 }
 
-.social-media-item{
+.social-media-item {
     width: 70px;
     height: 70px;
     padding: 8px;
 }
 
-.social-media-item:hover path{
+.social-media-item:hover path {
     fill: grey;
 }
 
-.footer-container{
+.footer-container {
     max-width: 1200px;
     padding: 40px 15px 30px 15px;
     margin: 0 auto;
 }
 
-footer{
+footer {
     background-color: #000000;
 }
 
-.footer-social-media-list{
+.footer-social-media-list {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -80,43 +80,42 @@ footer{
     padding: 6px;
 }
 
-
-.footer-social-media-list div:hover{
+.footer-social-media-list div:hover {
     scale: 1.5;
 }
 
-.footer-facebook:hover path{
+.footer-facebook:hover path {
     fill: royalblue;
 }
 
-.footer-twitter:hover path{
+.footer-twitter:hover path {
     fill: lightskyblue;
 }
 
-.footer-linkedin:hover path{
+.footer-linkedin:hover path {
     fill: dodgerblue;
 }
 
-.footer-pinterest:hover path{
+.footer-pinterest:hover path {
     fill: darkred;
 }
 
-.footer-instagram:hover path{
+.footer-instagram:hover path {
     fill: hotpink;
 }
 
-.footer-git:hover path{
+.footer-git:hover path {
     fill: yellow;
 }
 
-.footer-rss:hover path{
+.footer-rss:hover path {
     fill: orange;
 }
 
-.copyright{
+.copyright {
     color: rgba(255, 255, 255, 0.50);
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     font-size: 18px;
     font-weight: 400;
     padding-top: 30px;
