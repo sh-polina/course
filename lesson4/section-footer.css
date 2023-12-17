@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.social-media{
+    background-color: #F8EFEF;
+}
+
+.social-media-container{
+    max-width: 1200px;
+    padding: 15px 15px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+
+.social-media-text{
+    max-width: 470px;
+}
+
+.social-media-title{
+    color: #333;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.social-media-description{
+    color: #86878B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social-media-list{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 35px 0;
+}
+
+.social-media-item{
+    width: 70px;
+    height: 70px;
+    padding: 8px;
+}
+
+.social-media-item:hover path{
+    fill: grey;
+}
+
+.footer-container{
+    max-width: 1200px;
+    padding: 40px 15px 30px 15px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #000000;
+}
+
+.footer-social-media-list{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-social-media-list div {
+    width: 53px;
+    height: 53px;
+    padding: 6px;
+}
+
+
+.footer-social-media-list div:hover{
+    scale: 1.5;
+}
+
+.footer-facebook:hover path{
+    fill: royalblue;
+}
+
+.footer-twitter:hover path{
+    fill: lightskyblue;
+}
+
+.footer-linkedin:hover path{
+    fill: dodgerblue;
+}
+
+.footer-pinterest:hover path{
+    fill: darkred;
+}
+
+.footer-instagram:hover path{
+    fill: hotpink;
+}
+
+.footer-git:hover path{
+    fill: yellow;
+}
+
+.footer-rss:hover path{
+    fill: orange;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 30px;
+}
