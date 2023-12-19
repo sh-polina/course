@@ -7,6 +7,69 @@
     text-decoration: none;
 }
 
+.contact-form {
+    display: flex;
+    font-family: Open Sans, serif;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-form-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 50px;
+}
+
+.contact-form-textarea {
+    width: 50%;
+}
+
+.contact-form--input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding-bottom: 16px;
+}
+
+.contact-form--textarea {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+.contact-form--input::placeholder, .contact-form--textarea::placeholder {
+    color: #BDBDBD;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-form-button {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact-form--button {
+    border: none;
+    background-color: #EC7979;
+    color: #FFF;
+    font-family: Open Sans, serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0;
+    width: 370px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.contact-form--button:hover {
+    background-color: #AB4949;
+    transition: .3s;
+}
+
 .social-media {
     background-color: #F8EFEF;
 }
