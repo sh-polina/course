@@ -30,6 +30,7 @@
     outline: none;
     border-bottom: 1px solid #BDBDBD;
     padding-bottom: 16px;
+    width: 100%;
 }
 
 .contact-form--textarea {
@@ -80,6 +81,7 @@
     margin: 0 auto;
     display: flex;
     gap: 30px;
+    justify-content: space-between;
 }
 
 .social-media-text {
@@ -114,10 +116,12 @@
     width: 70px;
     height: 70px;
     padding: 8px;
+    transition: .3s;
 }
 
 .social-media-item:hover path {
     fill: grey;
+    transition: .3s;
 }
 
 .footer-container {
@@ -141,38 +145,47 @@ footer {
     width: 53px;
     height: 53px;
     padding: 6px;
+    transition: .3s;
 }
 
 .footer-social-media-list div:hover {
     scale: 1.5;
+    transition: .3s;
 }
 
 .footer-facebook:hover path {
     fill: royalblue;
+    transition: .3s;
 }
 
 .footer-twitter:hover path {
     fill: lightskyblue;
+    transition: .3s;
 }
 
 .footer-linkedin:hover path {
     fill: dodgerblue;
+    transition: .3s;
 }
 
 .footer-pinterest:hover path {
     fill: darkred;
+    transition: .3s;
 }
 
 .footer-instagram:hover path {
     fill: hotpink;
+    transition: .3s;
 }
 
 .footer-git:hover path {
     fill: yellow;
+    transition: .3s;
 }
 
 .footer-rss:hover path {
     fill: orange;
+    transition: .3s;
 }
 
 .copyright {

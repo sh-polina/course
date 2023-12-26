@@ -1,0 +1,262 @@
+@media (max-width: 1200px) {
+    .main-title {
+        font-size: 36px;
+    }
+
+    .main-logo {
+        width: 115px;
+        height: 40px;
+    }
+
+    .main-subtitle {
+        font-size: 14px;
+    }
+
+    .main-download {
+        width: 180px;
+        padding: 10px;
+    }
+
+    .social-media-description {
+        max-width: 402px;
+        flex-shrink: 0;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .social-media-title, .item-title, .review-list--item-person-name {
+        font-size: 18px;
+    }
+
+    .social-media-container {
+        gap: 20px;
+        padding: 13px 13px;
+    }
+
+    .social-media-list {
+        gap: 20px;
+        padding: 16px 0;
+    }
+
+    .social-media-item {
+        width: 64px;
+        height: 64px;
+        padding: 5px;
+    }
+
+    .tabs-content--img {
+        width: 40%;
+    }
+
+    .tabs-content--text {
+        width: 60%;
+        padding: 50px 0 50px 80px;
+    }
+
+    .tabs-content {
+        gap: 20px;
+    }
+
+    .tabs-content--title {
+        font-size: 24px;
+    }
+
+    .tabs-content--description {
+        font-size: 14px;
+    }
+
+    .tabs-content--download-button {
+        width: 230px;
+    }
+
+    .tabs-container--item {
+        width: 170px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .title:after {
+        width: 142px;
+        right: calc(50% - 142px / 2);
+    }
+
+    .description, .item-text, .review-list--item-text, .review-list--item-person-job, .stylish-subtitle, .price-text-block--description, .copyright {
+        font-size: 14px;
+    }
+
+    .description {
+        padding-bottom: 0;
+    }
+
+    .item-img img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .flex-thee-column {
+        gap: 20px;
+    }
+
+    .price-text-block {
+        padding: 100px 0 50px 0;
+    }
+
+    .review-list--item-person-name {
+        padding-bottom: 20px;
+    }
+
+    .stylish-download, .contact-form--button {
+        width: 318px;
+    }
+
+    .stylish-subtitle {
+        padding: 30px 0 30px 0;
+    }
+
+    .footer-social-media-list div {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 760px) {
+    .main {
+        height: 100%;
+    }
+
+    .main-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 50px 15px;
+    }
+
+    .main-logo {
+        display: none;
+    }
+
+    .main-text-content {
+        padding-bottom: 55px;
+    }
+
+    .main-title:after {
+        width: 134px;
+        left: calc(50% - 134px / 2);
+    }
+
+    .social-media-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tabs-content--img, .review-list--item:not(:first-child) {
+        display: none;
+    }
+
+    .tabs-content--text {
+        width: 100%;
+        padding: 50px 80px;
+        text-align: center;
+    }
+
+    .section-bottom, .flex-thee-column {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .item, .price-plan, .review-list--item, .contact-form--button, .tabs-content--download-button, .main-download, .main-form, .main-text-content {
+        width: 100%;
+    }
+
+    .navigation-list {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        position: absolute;
+        top: calc(50% - 18px / 2);
+        right: 35px;
+        cursor: pointer;
+        /*background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18" fill="none"> <path d="M0 0H24V3H0V0ZM0 7.5H24V10.5H0V7.5ZM0 15H24V18H0V15Z" fill="white"/></svg>');*/
+    }
+
+    /*.burger div {*/
+    /*    width: 25px;*/
+    /*    height: 1px;*/
+    /*    background-color: #fff;*/
+    /*    margin: 5px;*/
+    /*    transition: all 0.3s ease;*/
+    /*}*/
+
+}
+
+@media (max-width: 578px) {
+    .social-media-item svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .social-media-item {
+        width: 28px;
+        height: 28px;
+    }
+
+    .social-media-item {
+        gap: 20px;
+    }
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .contact-form-inputs, .contact-form-textarea {
+        width: 100%;
+    }
+
+    .contact-form-textarea {
+        height: 180px;
+    }
+
+    .footer-social-media-list div svg {
+        width: 26px;
+        height: 26px;
+    }
+
+    .footer-social-media-list {
+        gap: 16px;
+    }
+
+    .tabs-content--title {
+        font-size: 18px;
+    }
+
+    .tabs-content--text {
+        padding: 25px 30px;
+    }
+
+    .item {
+        padding: 0;
+    }
+}
+
+@media (max-width: 378px) {
+    .price-plan--item:nth-child(2) {
+        font-size: 24px;
+    }
+
+    .price-plan--item, .price-plan--item:first-child {
+        font-size: 18px;
+    }
+
+    .price-plan--item:nth-child(-n+3), .price-plan--item {
+        font-size: 14px;
+    }
+}
